@@ -1,90 +1,179 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 
 body{
-    margin: 0;
+    /* border: tan solid 1px; */
+    width: 896px;
+    height: 100%;
+    min-height: 100%;
+    margin: 0 auto;
     background: white;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 1.6 rem;
+    font-size: 1.6rem;
     display: block;
     padding: 0;
+    line-height: 1;
 }
-.main_body {
-    width: 80%;
-    margin-top: 10px;
+@media (min-width: 650px) and (max-width: 799px) {
+body {
+    width: 594px;
+    padding: 20px 28px 0;}
+}
+
+.wrapper {
+    border: grey solid 1px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background: #FFF;
+}
+@media (min-width: 420px) {
+    .wrapper {
+        max-width: 60rem;
+        padding: 1rem;}
+}
+@media (min-width: 650px) {
+    .wrapper {
+        max-width: 76rem;}
+}
+@media (min-width: 800px) {
+    .wrapper {
+        max-width: 95rem;}
+}
+
+.logo_bar {
+    /* border: yellowgreen solid 1px; */
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    align-items: center;
+    padding: 0;
+    margin: 0; 
+}
+@media (min-width: 420px) {
+.logo_bar {
+    flex-direction: row;
+    justify-content: space-between;}
+}
+@media (min-width: 800px) {
+.logo_bar {
+    flex-basis: 20%;
+    flex-direction: column;
+    justify-content: flex-start;}
+}
+h1 #logo {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    order: 1;
+}
+@media (min-width: 420px) {
+.logo {
+    order: 0;}
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+@media (min-width: 420px){
+.ul {
+    max-width: 36rem;}
+}
+@media (min-width: 650px){
+.ul {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-grow: 1;}
+}
+@media (min-width: 800px){
+.ul {
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-grow: 0;
+    margin: 2rem 0;}
+}
+
+.info_bar {
+    /* border: #34AC98 solid 1px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 1rem;
+}
+
+.info_box{
+    /* border: violet solid 1px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-upper_div {
-    margin: 10px;
-    padding: 5px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    justify-items: center;
-}
-.container {
-    background: whitesmoke;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.round_image {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    margin: 10px;
-    border: 0;
-}
-
-.info_box {
-    width: auto;
-    height: auto;
-    justify-content: center;
-    align-items: center;
-    background: whitesmoke;
-    margin: 10px;
+    padding: 0.4rem;
 }
 
 .small_logo {
+    /* border: 1px solid red; */
     width: 50px;
+    display: flex;
+    flex-direction: center;
     height: 50px;
-    margin: 5px;
-    /* border-radius: 50%; */
-    justify-content: center;
-    align-items: center;
+    cursor: pointer;
+    display: none;
+    margin: 1rem;
 }
+
+@media (min-width: 650px) {
+.small_logo {
+    width: auto;
+    display: inline;
+}
+
+@media (min-width: 800px) {
+.small_logo {
+    margin: 0.4rem;;}
+}
+
 .info_line {
-    font-size: 16;
+    /* border: #75FADD solid 1px; */
+    font-size: 1.2rem;
     color: lightblue;
     font-style: italic;
-    text-shadow: 1px 1px #75FADD;
-    text-align:justify;
-
+    text-shadow: 0.08rem 0.08rem #75FADD;
+    text-align: justify;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 .fa {
         padding: 20px;
         font-size: 30px;
-        width: 50px;
+        width: auto;
+        color: black;
+        border-radius: 50%;
         text-align: center;
         text-decoration: none;
         margin: 5px 2px;
       }
       
-      .fa:hover {
+.fa:hover {
           opacity: 0.7;
       }
-}
+
 
 .fa-twitter {
-    background: #55ACEE;
-    color: white;
+    /* background: #55ACEE; */
+    color: #34AC98;
   }
-  
+
 .hero_area {
     width: 80%;
     height: 300px;
