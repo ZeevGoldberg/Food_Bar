@@ -6,65 +6,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Food Bar</title>
     <link rel="stylesheet" href="main.css" />
+    <script src="https://use.fontawesome.com/30bd515406.js"></script>
   </head>
   <body>
-    <div class="wrapper">
-      <div class="logo_bar">
-        <h1 id="logo">
-          <img src="pictures/food sense.jpg" alt="no_pic" />
-        </h1>
-        <ul class="info_bar">
+    <main class="body_container">
+      <nav class="logo_bar">
+        <div class="logo">
+          <img
+            src="https://tinyurl.com/fslogozeev"
+            alt="logo-icon"
+            class="logo_img"
+          />
+        </div>
+        <ul class="info_list">
           <li class="info_box">
-            <img class="small_logo" src="pictures/chef-hat.png" alt="no_logo" />
-            <a class="info_line">TasteMakers</a>
+            <a href class="info_link">
+              <i class="fa-duotone fa-user-chef"></i>TasteMakers
+            </a>
           </li>
           <li class="info_box">
-            <img class="small_logo" src="pictures/blog.png" alt="no_logo" />
-            <a class="info_line">Blog</a>
+            <a href class="info_link"> <i class="fa-solid fa-blog"></i>Blog </a>
           </li>
           <li class="info_box">
-            <img class="small_logo" src="pictures/a list.png" alt="no_logo" />
-            <a class="info_line">The A-List</a>
+            <a href class="info_link">
+              <i class="fa-solid fa-crown"></i>The A-List
+            </a>
           </li>
           <li class="info_box">
-            <img class="small_logo" src="pictures/camera.png" alt="no_logo" />
-            <a class="info_line">Contribute</a>
+            <a href class="info_link">
+              <i class="fa-solid fa-circle-dollar-to-slot"></i>Contribute
+            </a>
           </li>
           <li class="info_box">
-            <img class="small_logo" src="pictures/about.png" alt="no_logo" />
-            <a class="info_line">About</a>
+            <a href class="info_link">
+              <i class="fa-duotone fa-address-card"></i>About
+            </a>
           </li>
         </ul>
-      </div>
-      <div class="hero_area">
-        <picture>
-          <source
-            srcset="
-              https://images.unsplash.com/photo-1499234399055-175d0ba12153?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80
-            "
-            media="(min-width:800px)"
-          />
-          <source
-            srcset="
-              https://images.unsplash.com/photo-1513135557534-682d53fd7046?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80
-            "
-            media="(min-width:650px)"
-          />
-          <img
-            src="https://images.unsplash.com/photo-1547592180-85f173990554?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-            alt="Hero_image"
-            style="width: auto"
-          />
-        </picture>
-        <div class="bottom_bar">
-          <ul>
-            <li>TasteMakers</li>
-            <li>Blog</li>
-            <li>The A-List</li>
-            <li>Contribute</li>
-          </ul>
+      </nav>
+      <section class="hero_part">
+        <div class="big_img">
+          <picture alt="main-pic" class="main_pic">
+            <source
+              media="(min-width: 650px)"
+              srcset="
+                https://images.unsplash.com/photo-1507048331197-7d4ac70811cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80
+              "
+            />
+            <source
+              media="(min-width: 465px)"
+              srcset="
+                https://images.unsplash.com/photo-1547592180-85f173990554?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80
+              "
+            />
+            <img
+              src="https://images.unsplash.com/photo-1605433247501-698725862cea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            />
+          </picture>
         </div>
-      </div>
-    </div>
+        <nav class="second_nav">
+          <ul>
+            <li class="second_nav_box">TasteMakers</li>
+            <li class="second_nav_box">Blog</li>
+            <li class="second_nav_box">The A-List</li>
+            <li class="second_nav_box">Contribute</li>
+          </ul>
+        </nav>
+      </section>
+      <section class="bottom"></section>
+    </main>
   </body>
 </html>
