@@ -5,68 +5,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Food Bar</title>
-    <link rel="stylesheet" href="/styles/main.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <div class="wrapper">
       <nav class="logo_box">
         <span class="logo">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYmdWECJDtlevWDQQUr7c13Knu3t9n0HRC5Vwvc2nYQw&s" class="logo_image" alt="logo_image" />
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYmdWECJDtlevWDQQUr7c13Knu3t9n0HRC5Vwvc2nYQw&s"
+            class="logo_image"
+            alt="logo_image"
+          />
         </span>
         <ul class="logo_nav_bar">
-          <li><a href="#"><i class="fa-solid fa-kitchen-set"></i></i></i></i>TasteMakers</a></li>
-          <li><a href="#"><i class="fa-solid fa-blog"></i>Blog</a></li>
-          <li><a href="#"><i class="fa-brands fa-angellist"></i>The A-list</a></li>
-          <li><a href="#"><i class="fa-solid fa-campground"></i>Contribute</a></li>
-          <li><a href="#"><i class="fa-solid fa-address-card"></i>About</a></li>
+          <li class="logo_nav_bar_item">
+            <a href="#"><i class="fa-solid fa-kitchen-set"></i>TasteMakers</a>
+          </li>
+          <li class="logo_nav_bar_item">
+            <a href="#"><i class="fa-solid fa-blog"></i>Blog</a>
+          </li>
+          <li class="logo_nav_bar_item">
+            <a href="#"><i class="fa-brands fa-angellist"></i>The A-list</a>
+          </li>
+          <li class="logo_nav_bar_item">
+            <a href="#"><i class="fa-solid fa-campground"></i>Contribute</a>
+          </li>
+          <li class="logo_nav_bar_item">
+            <a href="#"><i class="fa-solid fa-address-card"></i>About</a>
+          </li>
         </ul>
         <hr class="logo_box_bottom_line" />
         <div class="social_box">Social-invite-box</div>
       </nav>
       <main class="hero_content_wrapper">
         <section class="hero_area">
-          <div class="hero_gallery_image">
-            <picture alt="hero image" class="hero_image">
-              <source
-                media="(min width= 600px)"
-                srcset="
-                  https://images.unsplash.com/photo-1587248721852-ffc60bffc129?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80
-                "
-              />
-              <source
-                media="(min-width= 400px)"
-                srcset="
-                  https://images.unsplash.com/photo-1587394214354-a427608f15cc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80
-                "
-              />
-              <img
-                src="https://images.unsplash.com/photo-1591578954582-dc4a81447c6c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-                alt=""
-              />
-            </picture>
+          <div class="hero_gallery_box">
+            <img src="https://images.unsplash.com/photo-1587248721852-ffc60bffc129?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="hero image" class="hero_gallery_image">
           </div>
           <nav class="second_nav_bar">
             <ul>
-              <li class="bottom_nav_bar">
+              <li class="second_nav_bar_item">
                 <a href="#"
                   ><h3>TasteMakers</h3>
                   <p>Some recepies</p></a
                 >
               </li>
-              <li class="bottom_nav_bar">
+              <li class="second_nav_bar_item">
                 <a href="#"
                   ><h3>Blog</h3>
                   <p>news and gossip</p></a
                 >
               </li>
-              <li class="bottom_nav_bar">
+              <li class="second_nav_bar_item">
                 <a href="#"
                   ><h3>The A-list</h3>
                   <p>list of veggies</p></a
                 >
               </li>
-              <li class="bottom_nav_bar">
+              <li class="second_nav_bar_item">
                 <a href="#"
                   ><h3>Contribute</h3>
                   <p>Do something</p></a
@@ -81,56 +84,74 @@
             <p>Sign up for the tasty newslater</p>
           </div>
           <form>
-            <input type="text">
+            <input type="text" />
             <button>Please Subscribe</button>
           </form>
         </section>
         <section class="featured_content">
-          <span class="featured_content_item">
+          <div class="featured_content_item">
             <div class="featured_content_item_image">
-              <img src="https://images.unsplash.com/photo-1551218808-94e220e084d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="cooking image">
+              <img
+                src="https://images.unsplash.com/photo-1551218808-94e220e084d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                alt="cooking image"
+              />
             </div>
             <h2 class="featured_content_item_title">1</h2>
-            <p class="featured_content_item_body" ></p>
-          </span>
-          <span class="featured_content_item">
+            <p class="featured_content_item_body"></p>
+          </div>
+          <div class="featured_content_item">
             <div class="featured_content_item_image">
-              <img src="https://images.unsplash.com/photo-1506368249639-73a05d6f6488?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="cooking image">
+              <img
+                src="https://images.unsplash.com/photo-1506368249639-73a05d6f6488?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                alt="cooking image"
+              />
             </div>
             <h2 class="featured_content_item_title">2</h2>
-            <p class="featured_content_item_body" ></p>
-          </span>
-          <span class="featured_content_item">
+            <p class="featured_content_item_body"></p>
+          </div>
+          <div class="featured_content_item">
             <div class="featured_content_item_image">
-              <img src="https://images.unsplash.com/photo-1518737003272-dac7c4760d5e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80" alt="cooking image">
+              <img
+                src="https://images.unsplash.com/photo-1518737003272-dac7c4760d5e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80"
+                alt="cooking image"
+              />
             </div>
             <h2 class="featured_content_item_title">3</h2>
-            <p class="featured_content_item_body" ></p>
-          </span>
-          <span class="featured_content_item">
+            <p class="featured_content_item_body"></p>
+          </div>
+          <div class="featured_content_item">
             <div class="featured_content_item_image">
-              <img src="https://images.unsplash.com/photo-1549590143-d5855148a9d5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80" alt="cooking image">
+              <img
+                src="https://images.unsplash.com/photo-1549590143-d5855148a9d5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80"
+                alt="cooking image"
+              />
             </div>
             <h2 class="featured_content_item_title">4</h2>
-            <p class="featured_content_item_body" ></p>
-          </span>
-          <span class="featured_content_item">
+            <p class="featured_content_item_body"></p>
+          </div>
+          <div class="featured_content_item">
             <div class="featured_content_item_image">
-              <img src="https://images.unsplash.com/photo-1504387828636-abeb50778c0c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="cooking image">
+              <img
+                src="https://images.unsplash.com/photo-1504387828636-abeb50778c0c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                alt="cooking image"
+              />
             </div>
             <h2 class="featured_content_item_title">5</h2>
-            <p class="featured_content_item_body" ></p>
-          </span>
-          <span class="featured_content_item">
+            <p class="featured_content_item_body"></p>
+          </div>
+          <div class="featured_content_item">
             <div class="featured_content_item_image">
-              <img src="https://images.unsplash.com/photo-1540420828642-fca2c5c18abe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=382&q=80" alt="cooking image">
+              <img
+                src="https://images.unsplash.com/photo-1540420828642-fca2c5c18abe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=382&q=80"
+                alt="cooking image"
+              />
             </div>
             <h2 class="featured_content_item_title">6</h2>
-            <p class="featured_content_item_body" ></p>
-          </span>
+            <p class="featured_content_item_body"></p>
+          </div>
         </section>
       </main>
-      <hr class="bottom_line">
+      <hr class="bottom_line" />
       <footer class="footer">
         <div class="footer_legal_box">
           <p>
@@ -139,7 +160,7 @@
             <a href="#">Terms of Use</a>
             " | "
             <span><a href="#"></a></span>
-            <br>
+            <br />
           </p>
         </div>
         <div class="footer_social_box">
