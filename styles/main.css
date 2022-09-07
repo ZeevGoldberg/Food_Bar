@@ -1,147 +1,52 @@
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url(reset.css);
+@import url(normalize.css);
+@import url(https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap);
 
 html {
+    border: 2px solid violet;
     font-size: 10px;
 }
-body, html {
-    font-family: 'Times New Roman', Times, serif;
-    height: 100%;
-}
-
-body{
-    /* border: tan solid 1px; */
-    width: 100%;
-    margin: 8px;
-    background: white;
-    font-size: 1.6rem;
-    padding: 0;
-}
-@media (min-width: 735px){
 body {
-    padding: 0 100px 0;}
-}
-
-.body_container {
-        /* border: yellowgreen solid 2px; */
-        display: flex;
-        flex: wrap;
-        margin: o auto;
-        max-width: 40rem;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-}
-@media (min-width: 480px){
-.body_container {
-    max-width: 60rem;
-    padding: 1rem;}
-}
-
-.logo_bar {
-    border: yellowgreen solid 1px;
-    display: flex;
-    flex-basis: 100%;
-    /* flex-direction: column; */
-    align-items: center;
-    font-style: italic;
-    width: 100%;
-}
-@media (min-width: 480px){
-.logo_bar {
-    flex-direction: row;
-    justify-content: space-between;}
-}
-@media (min-width: 900px){
-.logo_bar {
-    /* border: green 2px dashed; */
-    flex-basis: 20%;
-    flex-direction: column;
-    justify-content: flex-start;}
-}
-
-.logo {
-    order: 1;
-    padding: 0;
-    margin: 0;
-}
-@media (min-width: 480px){
-.logo {
-    order: 0;}
-}
-
-.logo_img {
-    width: 120px;
-    height: 120px;
-}
-.ul_info_list {
-    width: 100%;
-}
-
-.info_list {
-    /* border: red solid 1px; */
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    border-bottom: 1px rgba(78, 74, 74, 0.212) solid;
-}
-@media (min-width: 480px){
-.info_list {
-    max-width: 36rem;
-    border-bottom: none;}
-}
-@media (min-width: 767px){
-.info_list {
-    flex-direction: row;
-    justify-content: space-between;
-    flex-grow: 1;}
-}
-@media (min-width: 990px){
-.info_list {
-    flex-direction: column;
-    justify-content: flex-start;
-    flex-grow: 0;
-    margin: 2rem 0;}
-}
-
-.info_box {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 0.4rem;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 1.6rem;
-    color: lightblue;
-    text-shadow: 0.08rem 0.08rem #75FADD;}
-@media (min-width: 480px){
-.info_box {
-    font-size: 2rem;}
 }
 
-.info_box i {
-    display: none;
-}
-@media (min-width: 767px){
-.info_box i {
-    display: inline;}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Mouse Memoirs', sans-serif;
 }
 
-.hero_part {
-    /* border: cadetblue 1px dashed; */
-    width: 100%;
+a {
+    text-decoration: none;
 }
 
-.big_img {
-    width: 100%;
+.wrapper {
+    border: 2px dashed hotpink;
+    margin: 0 auto;
+    max-width: 40rem;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.main_pic {
-    width: 100%;
+.logo_box {
+    border: 1px solid burlywood;
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.second_nav {
-    display: none;
+.logo {
+    border: 1px dashed teal;
+    order: 1;
 }
-@media (min-width: 767px){
-.second_nav {
-    display: flex;}
+
+.logo_image {
+    border-radius: 50%;
+}
+
+.logo_nav_bar {
+    border: 2px dashed darkorchid;
+    display: flex;
+    justify-content: space-between;
 }
